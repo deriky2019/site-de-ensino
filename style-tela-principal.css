@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body {background-color: rgb(157, 202, 241);width: 200px;margin: auto;}
+body {background-color: rgb(157, 202, 241);width: 200px;margin: auto;box-shadow: so 3px blue;}
 header {text-align: center;background-color: cadetblue;padding: 20px;box-shadow: 5px black;}
 header > h1 {color: rgb(66, 167, 255);font-size: 30px; }
 a {text-decoration: none;font-family: 'Courier New', Courier, monospace;}

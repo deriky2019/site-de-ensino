@@ -1,4 +1,5 @@
 @charset "UTF-8";
 body {background-color: bisque;}
-header {text-align: center;background-color: azure;}
+header {text-align: center;background-color: cadetblue;padding: 20px;}
 header > h1 {color: rgb(175, 218, 255);}
+a {text-decoration: none;font-family: 'Courier New', Courier, monospace;}

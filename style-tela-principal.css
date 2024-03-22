@@ -2,8 +2,14 @@
 body {background-color: rgb(157, 202, 241);}
 header {text-align: center;background-color: cadetblue;padding: 20px;border: 4px groove rgb(0, 204, 255);}
 header > h1 {color: rgb(66, 167, 255);font-size: 40px; }
-nav {font-family: 'Courier New', Courier, monospace;padding-bottom: 5px;border: 4px groove rgb(0, 89, 255);border-radius: 5px;}
 a {text-decoration: none;font-family: 'Courier New', Courier, monospace;
-color: aqua;}
+color: rgb(0, 119, 255);display: inline;}
 p {font-size: 20px;color: cornflowerblue;}
 .direita {text-align: right;}
+nav {
+    text-align: center;border: 5px solid rgb(13, 143, 148);border-radius: 10px;}
+
+nav a {
+    display: inline-block; /* Permite que o link se comporte como um bloco dentro do nav */
+    margin: 0 10px 0 10px; /* Espaçamento entre os links */
+}

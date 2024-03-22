@@ -1,8 +1,9 @@
 @charset "UTF-8";
-body {background-color: rgb(157, 202, 241);width: 350px;}
-header {text-align: center;background-color: cadetblue;padding: 20px;}
-header > h1 {color: rgb(66, 167, 255);font-size: 30px; }
-a {text-decoration: none;font-family: 'Courier New', Courier, monospace;}
+body {background-color: rgb(157, 202, 241);}
+header {text-align: center;background-color: cadetblue;padding: 20px;border: 4px groove rgb(0, 204, 255);}
+header > h1 {color: rgb(66, 167, 255);font-size: 40px; }
+nav {font-family: 'Courier New', Courier, monospace;padding-bottom: 5px;border: 4px groove rgb(0, 89, 255);border-radius: 5px;}
+a {text-decoration: none;font-family: 'Courier New', Courier, monospace;
+color: aqua;}
 p {font-size: 20px;color: cornflowerblue;}
-#direita {text-align: right;}
-div {margin: auto;}
+.direita {text-align: right;}

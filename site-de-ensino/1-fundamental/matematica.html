@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style-1-fundamento.css">
 </head>
 <body>
-    <h1>O que e matematica</h1>
-    
+    <header><h1>O que e matematica</h1></header>
+    <p>Matemática é como um grande jogo de quebra-cabeças! É uma maneira de aprender sobre números, formas e até mesmo sobre como as coisas funcionam ao nosso redor. Com a matemática, podemos contar as coisas, como os dedinhos das nossas mãos, ou as bolinhas em uma cartela. Também podemos usar a matemática para adicionar coisas juntas, como se tivéssemos alguns doces e ganhássemos mais alguns. Além disso, podemos descobrir quais formas são redondas, quadradas ou até mesmo como uma bola de futebol é diferente de um cubo de brinquedo. Então, a matemática é como um superpoder que nos ajuda a resolver problemas e a entender melhor o mundo ao nosso redor!</p>
+    <h2>adiçao</h2>
+    <video controls>
+        <source src="fotos/ADIÇÃO - 1º ANO.mp4" type="video/mp4">
+        
+    </video>
+    <p>Quanto é <span id="numero1">5</span> + <span id="numero2">3</span> = </p>
+        <input type="number" id="respostaUsuario">
+        <button onclick="verificarResposta()">calcular</button>
 
+        <p>Quanto é <span id="numero1">4</span> + <span id="numero2">9</span> = </p>
+        <input type="number" id="respostaUsuario">
+        <button onclick="verificarResposta()">calcular</button>
+    <script>
+        function verificarResposta() {
+        // Obtendo os números
+        let numero1 = parseInt(document.getElementById("numero1").textContent);
+        let numero2 = parseInt(document.getElementById("numero2").textContent);
+                // Obtendo a resposta do usuário
+        let respostaUsuario = parseInt(document.getElementById("respostaUsuario").value);
+        
+        // Calculando a soma
+        let resultadoEsperado = numero1 + numero2;
+        
+        // Verificando a resposta do usuário
+        if (respostaUsuario === resultadoEsperado) {
+            alert("Parabéns! Sua resposta está correta.");
+        } else {
+            alert("Ops! Sua resposta está incorreta. A resposta correta é: " + resultadoEsperado);
+        }
+        let numero3 = parseInt(document.getElementById("numero3").textContent);
+        let numero4 = parseInt(document.getElementById("numero4").textContent);
+        let resultadoEsperado1 = numero3 + numero4;
+        if (resultadoEsperado1 ===respostaUsuario) {alert ("Parabéns! Sua resposta está correta.")
+            
+        } else {alert ("Ops! Sua resposta está incorreta. A resposta correta é: " + resultadoEsperado);
+            
+        }
+
+    }
+    
+        </script>
 </body>
 </html>
